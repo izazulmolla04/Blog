@@ -1,0 +1,27 @@
+@import 'tailwindcss';
+body{
+  background-color: cadetblue;
+}
+
+#loading{
+    font-size: 3rem;
+    color: #333;
+    text-align: center;
+    margin-top: 20%;
+
+}
+
+#loadingbox{
+    width: 100%;
+    block-size: auto;
+
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+    /* background-color: white; */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+} 

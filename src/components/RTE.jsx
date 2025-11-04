@@ -12,7 +12,7 @@ export default function App() {
   return (
     <>
       <Editor
-        apiKey='https://blog-beta-jet-22.vercel.app'
+        apiKey='https://vercel.com/izazulmolla04s-projects/blog'
         onInit={ (_evt, editor) => editorRef.current = editor }
         initialValue="<p>This is the initial content of the editor.</p>"
         init={{
